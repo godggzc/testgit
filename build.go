@@ -2,11 +2,11 @@ package testgit
 
 import "fmt"
 
-type myStruct struct {
+type MyStruct struct {
 	Cat string `json:"cat"`
 	Dog string `json:"dog"`
 }
 
-func (m *myStruct) fmtAll() string {
+func (m *MyStruct) fmtAll() string {
 	return fmt.Sprintf("Cat: %s, Dog: %s", m.Cat, m.Dog)
 }
