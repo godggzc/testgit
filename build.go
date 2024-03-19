@@ -7,6 +7,6 @@ type MyStruct struct {
 	Dog string `json:"dog"`
 }
 
-func (m *MyStruct) fmtAll() string {
+func (m *MyStruct) FmtAll() string {
 	return fmt.Sprintf("Cat: %s, Dog: %s", m.Cat, m.Dog)
 }
